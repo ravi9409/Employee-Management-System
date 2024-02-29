@@ -1,0 +1,11 @@
+delete employee html code
+<div class="container">
+  <h2>Delete Employee</h2>
+  <form>
+    <div class="form-group">
+      <label for="id">Employee ID:</label>
+      <input type="text" class="form-control" id="id" [(ngModel)]="employees.id" name="id">
+    </div>
+    <button type="submit" class="btn btn-danger" (click)="deleteEmployee()">Delete</button>
+  </form>
+</div>
